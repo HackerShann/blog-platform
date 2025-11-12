@@ -17,7 +17,7 @@ function App() {
   // Function to get all posts from backend
   const fetchPosts = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/posts');
+      const response = await axios.get('https://blog-platform-backend-wbtk.onrender.com/api/posts/');
       setPosts(response.data);
     } catch (error) {
       console.error('Error fetching posts:', error);
@@ -28,7 +28,7 @@ function App() {
   // Function to create a new post
   const createPost = async (postData) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/posts', postData);
+      const response = await axios.post('https://blog-platform-backend-wbtk.onrender.com/api/posts/', postData);
       setPosts([response.data, ...posts]); // Add new post to the beginning
       setShowCreateForm(false);
       alert('Post created successfully!');
@@ -41,7 +41,7 @@ function App() {
   // Function to update an existing post
   const updatePost = async (id, postData) => {
     try {
-      const response = await axios.put(`http://localhost:5000/api/posts/${id}`, postData);
+      const response = await axios.put(`https://blog-platform-backend-wbtk.onrender.com/api/posts/${id}`, postData);
       setPosts(posts.map(post => post.id === id ? response.data : post));
       setEditingPost(null);
       alert('Post updated successfully!');
@@ -55,7 +55,7 @@ function App() {
   const deletePost = async (id) => {
     if (window.confirm('Are you sure you want to delete this post?')) {
       try {
-        await axios.delete(`http://localhost:5000/api/posts/${id}`);
+        await axios.delete(`https://blog-platform-backend-wbtk.onrender.com/api/posts/${id}`);
         setPosts(posts.filter(post => post.id !== id));
         alert('Post deleted successfully!');
       } catch (error) {
