@@ -11,8 +11,6 @@ A complete full-stack blog application built with **Node.js, Express, and React*
 **Backend API:** `https://blog-platform-backend-wbtk.onrender.com`  
 **Frontend App:** `https://blog-platform-rho-six.vercel.app/`
 
-*(Add deployed links here once you deploy)*
-
 ## ✨ Features
 
 ### User Features
