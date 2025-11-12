@@ -8,8 +8,8 @@ A complete full-stack blog application built with **Node.js, Express, and React*
 
 ## 🌟 Live Demo
 
-**Backend API:** `http://localhost:5000/api/posts`  
-**Frontend App:** `http://localhost:3000`
+**Backend API:** `https://blog-platform-backend-wbtk.onrender.com`  
+**Frontend App:** `https://blog-platform-rho-six.vercel.app/`
 
 *(Add deployed links here once you deploy)*
 
@@ -196,7 +196,7 @@ curl -X DELETE http://localhost:5000/api/posts/1
 - Test all CRUD operations
 
 ### Test Frontend
-1. Open `http://localhost:3000`
+1. Open `https://blog-platform-rho-six.vercel.app/`
 2. Click "Create New Post"
 3. Fill in the form and submit
 4. Try editing and deleting posts
@@ -274,32 +274,15 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- Portfolio: [your-website.com](https://your-website.com)
+- GitHub: [@your-username](https://github.com/shan-esco/)
+- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/shan-esco/)
 
 ## 🙏 Acknowledgments
 
 - Built as part of my journey to learn full-stack web development
 - Inspired by modern blogging platforms
 - Thanks to the Node.js, Express, and React communities for excellent documentation
-
-## 📸 Screenshots
-
-### Home Page
-![Home Page](screenshots/home.png)
-*Display all blog posts in a beautiful card layout*
-
-### Create Post
-![Create Post](screenshots/create.png)
-*Easy-to-use form for creating new posts*
-
-### Edit Post
-![Edit Post](screenshots/edit.png)
-*Update existing posts with live preview*
-
-*(Add actual screenshots after deployment)*
-
+  
 ---
 
 ## 💡 Key Takeaways for Hiring Managers
@@ -322,6 +305,5 @@ This project demonstrates:
 
 Feel free to reach out if you have any questions or want to discuss this project!
 
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)
-- **Portfolio:** [your-website.com](https://your-website.com)
+- **Email:** shanescobiz@gmail.com
+- **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/shan-esco/)
